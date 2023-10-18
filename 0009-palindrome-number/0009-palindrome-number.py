@@ -4,9 +4,9 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        y = str(x)
-        z = y[::-1]
-        for i in range(len(y)):
-            if z[i] != y[i]:
+        x = str(x)
+        y = x[::-1]
+        for i in range(len(x)):
+            if x[i] != y[i]:
                 return False
         return True
