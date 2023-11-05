@@ -4,8 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        s = str(s)
-        result, i = 0, 0
+        result, i, s = 0, 0, str(s)
         num = {
             "CM":900,
             "CD":400,
